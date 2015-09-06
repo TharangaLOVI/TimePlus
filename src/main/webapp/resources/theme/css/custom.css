@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+Created on : May 22, 2015, 12:04:19 AM
+Author     : Harshana
+*/
+.notify-merg{
+	margin-bottom: 0;
+}
+.float-btn{
+	position: fixed; 
+	bottom: 1%; 
+	right: 1%; 
+	z-index: 100;
+}
+.child{
+	display: none;
+}
+.child-1{
+	bottom: 10%;
+	z-index: 99;
+}
+.child-2{
+	bottom: 19%;
+	z-index: 98;
+}
+body,html{
+	background-color: #fff;
+}
+#slide .glass{
+    background-color: rgba(0,0,0,0.2);
+    width: 100%;
+    height: 100%;
+    z-index: 49;
+}
+#slide h1,#slide p{
+    /**/
+    z-index: 50;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.4);
+}
+.navbar-brand:hover{
+    color: #000;
+}
+.navbar-3d{
+	color: #fff;
+    font-weight: bold;
+    font-size: 200%;
+    text-shadow: 1px 1px 1px #000;
+}
+.navbar-menu-3d{
+	color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000;
+}
+.small-span{
+	font-size: 50%;
+}
+hr{
+	padding: 0;
+	margin: 0;
+}
+.shadow {
+    -webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.3);
+    -ms-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.3);
+    -o-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.3);
+}
+.tooltip > .tooltip-inner {
+      background-color: #00ACC1; 
+      color: #FFFFFF; 
+      border: 1px solid 00ACC1; 
+      padding: 5px;
+      font-size: 150%;
+}
+.details-table{
+	width: 100%;
+	
+}
+.details-table tr td{
+	padding: 1%;
+}
+.details-table tr td:first-child {
+	width: 35%;
+}
+.details-table tr td:second-child {
+	width: 65%;
+}
+/* override floating button 
+.mfb-component__button--main, .mfb-component__button--child {
+	
+	background-color: #009688;
+}
+*/
